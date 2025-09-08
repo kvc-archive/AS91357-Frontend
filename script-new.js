@@ -1,27 +1,31 @@
-let navBar = `<nav>
-<a href="index.html"><img src="img-new/main_logo.png" alt=""><h1>PBC Science - KVC Biology</h1></a>
-<div class="nav-links" id="navLinks">
-    <i class="fa fa-times" onclick="hideMenu()"></i>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="standards.html">Standards</a></li>
-        <div class="dropdown">
-            <button class="dropbtn">Dropdown
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="as91153.html">AS 91153</a>
-                <a href="as91154.html">AS 91154</a>
-                <a href="as91155.html">AS 91155</a>
-                <a href="as91158.html">AS 91158</a>
-                <a href="as91160.html">AS 91160</a>
+let navBar = `
+<nav>
+    <a href="index.html" class="logo">
+        <img src="/img-new/main_logo.png" alt="">
+        <h1>PBC Science - KVC Biology</h1>
+    </a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/pages/standards.html">Standards</a></li>
+            <div class="dropdown">
+                <button class="dropbtn">Dropdown
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="/pages/as91153.html">AS 91153</a>
+                    <a href="/pages/as91154.html">AS 91154</a>
+                    <a href="/pages/as91155.html">AS 91155</a>
+                    <a href="/pages/as91158.html">AS 91158</a>
+                    <a href="/pages/as91160.html">AS 91160</a>
+                </div>
             </div>
-        </div>
-        <li><a href="exercises.html">Exercises</a></li>
-        <li><a href="resources.html">Resources</a></li>
-    </ul>
-</div>
-<i class="fa fa-bars" onclick="showMenu()"></i>
+            <li><a href="/pages/exercises.html">Exercises</a></li>
+            <li><a href="/pages/resources.html">Resources</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
 </nav>`;
 
 document.getElementById('nav').innerHTML = navBar;
@@ -36,7 +40,7 @@ let footerPart = `<h4>About Us</h4>
     <a href="https://www.instagram.com/hyvogia/"><i class="fa fa-instagram"></i></a>
     <a href="https://www.linkedin.com/in/hy-vo-8a0843227/"><i class="fa fa-linkedin"></i></a>
 </div>
-<p>` + copyrightyear + ` <a href="home.htm">Classic Version</a></p>`;
+<p>` + copyrightyear + ` <a href="/classic/index.html">Classic Version</a></p>`;
 
 
 document.getElementById('footer').innerHTML = footerPart;

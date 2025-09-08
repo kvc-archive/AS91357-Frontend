@@ -26,6 +26,16 @@ nav {
     margin: auto;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo h1 {
+  margin: 0 0 0 10px;
+}
+
 nav a {
     display: flex;
     text-decoration: none;
