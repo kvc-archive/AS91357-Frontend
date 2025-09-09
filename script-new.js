@@ -8,21 +8,21 @@ let navBar = `
         <i class="fa fa-times" onclick="hideMenu()"></i>
         <ul>
             <li><a href="/index.html">Home</a></li>
-            <li><a href="/standards.html">Standards</a></li>
+            <li><a href="/pages/standards.html">Standards</a></li>
             <div class="dropdown">
                 <button class="dropbtn">Dropdown
                     <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
-                    <a href="/as91153.html">AS 91153</a>
-                    <a href="/as91154.html">AS 91154</a>
-                    <a href="/as91155.html">AS 91155</a>
-                    <a href="/as91158.html">AS 91158</a>
-                    <a href="/as91160.html">AS 91160</a>
+                    <a href="/pages/as91153.html">AS 91153</a>
+                    <a href="/pages/as91154.html">AS 91154</a>
+                    <a href="/pages/as91155.html">AS 91155</a>
+                    <a href="/pages/as91158.html">AS 91158</a>
+                    <a href="/pages/as91160.html">AS 91160</a>
                 </div>
             </div>
-            <li><a href="/exercises.html">Exercises</a></li>
-            <li><a href="/resources.html">Resources</a></li>
+            <li><a href="/pages/exercises.html">Exercises</a></li>
+            <li><a href="/pages/resources.html">Resources</a></li>
         </ul>
     </div>
     <i class="fa fa-bars" onclick="showMenu()"></i>
