@@ -37,7 +37,7 @@ let footerPart = `<h4>About Us</h4>
     <br>This resource initially was used for students for homework and revision. If a link is dead or you would like an image/file/ link removed and I will sort it as soon as I can. 
     <br>Anyone can search Google but the real skill is finding that what is relevant and work on understanding concepts, not just learning key word lists.</p>
 <div class="icons">
-    <a href="https://www.instagram.com/hyvogia/"><i class="fa fa-instagram"></i></a>
+    <a href="https://www.instagram.com/hyvo.01/"><i class="fa fa-instagram"></i></a>
     <a href="https://www.linkedin.com/in/hy-vo-8a0843227/"><i class="fa fa-linkedin"></i></a>
 </div>
 <p>` + copyrightyear + ` <a href="home.htm">Classic Version</a></p>`;
