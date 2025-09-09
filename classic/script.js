@@ -5,7 +5,7 @@
 var header = `
 <h1>PBC Science</h1>
 <ul>
-    <li><a href="/classic/index.html">Home</a></li>
+    <li><a href="/classic/home.html">Home</a></li>
     <li><A href="/classic/pages/achievement_units.html">AS Units</A></li>
     <li><A href="/classic/pages/games.html">Games</A></li>
     <li><a href="/classic/pages/youtube.html">Youtube</a></li>
