@@ -1,27 +1,31 @@
-let navBar = `<nav>
-<a href="index.html"><img src="img-new/main_logo.png" alt=""><h1>PBC Science - KVC Biology</h1></a>
-<div class="nav-links" id="navLinks">
-    <i class="fa fa-times" onclick="hideMenu()"></i>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="standards.html">Standards</a></li>
-        <div class="dropdown">
-            <button class="dropbtn">Dropdown
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="as91153.html">AS 91153</a>
-                <a href="as91154.html">AS 91154</a>
-                <a href="as91155.html">AS 91155</a>
-                <a href="as91158.html">AS 91158</a>
-                <a href="as91160.html">AS 91160</a>
+let navBar = `
+<nav>
+    <a href="index.html" class="logo">
+        <img src="img-new/main_logo.png" alt="">
+        <h1>PBC Science - KVC Biology</h1>
+    </a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="standards.html">Standards</a></li>
+            <div class="dropdown">
+                <button class="dropbtn">Dropdown
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="as91153.html">AS 91153</a>
+                    <a href="as91154.html">AS 91154</a>
+                    <a href="as91155.html">AS 91155</a>
+                    <a href="as91158.html">AS 91158</a>
+                    <a href="as91160.html">AS 91160</a>
+                </div>
             </div>
-        </div>
-        <li><a href="exercises.html">Exercises</a></li>
-        <li><a href="resources.html">Resources</a></li>
-    </ul>
-</div>
-<i class="fa fa-bars" onclick="showMenu()"></i>
+            <li><a href="exercises.html">Exercises</a></li>
+            <li><a href="resources.html">Resources</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
 </nav>`;
 
 document.getElementById('nav').innerHTML = navBar;
