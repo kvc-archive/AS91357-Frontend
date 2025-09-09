@@ -40,7 +40,7 @@ let footerPart = `<h4>About Us</h4>
     <a href="https://www.instagram.com/hyvogia/"><i class="fa fa-instagram"></i></a>
     <a href="https://www.linkedin.com/in/hy-vo-8a0843227/"><i class="fa fa-linkedin"></i></a>
 </div>
-<p>` + copyrightyear + ` <a href="/classic/home.html">Classic Version</a></p>`;
+<p>` + copyrightyear + ` <a href="/classic/index.html">Classic Version</a></p>`;
 
 
 document.getElementById('footer').innerHTML = footerPart;
